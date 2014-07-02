@@ -35,6 +35,8 @@ gem 'spring',        group: :development
 # Use unicorn as the app server
 gem 'unicorn'
 
+gem 'evernote_oauth'
+
 group :development do
   gem 'capistrano', '~> 3.0.1'
   gem 'capistrano-rails', '~> 1.1.0'
